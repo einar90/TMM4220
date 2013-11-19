@@ -1,0 +1,190 @@
+\documentclass[a4paper, norsk, 12pt]{article}
+
+% General packages
+\usepackage{parskip}      % Vertical space on new paragraph instead of indent
+\usepackage{hyperref}   % For including links
+\usepackage{url}          % Allows adding url's
+\usepackage[top=4cm, bottom=4cm]{geometry}     % Easier management of page dimensions
+\usepackage{chngcntr}     % Customizable counters
+\usepackage{enumitem}     % Can use [noitemsep] on lists to reduce spacing
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{afterpage} 	% Various tweaks for page breaks and stuff
+\usepackage{amsmath, amsthm}
+\usepackage{babel}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+% BEGIN Floats
+\usepackage[bf, hang, small]{caption}	% Nicer captions for floats.
+\usepackage{float}        % Allows advanced placement options for floats
+\usepackage{mwe}    % loads »blindtext« and »graphicx«
+\usepackage{subfig}		% Sub-figures. Crashes with captions package
+% END Floats
+
+% BEGIN Tables
+\usepackage{booktabs}		% More professional looking tables
+\usepackage{tabularx}		% Allows width adjustment etc. for tables
+\usepackage{multirow}		% Allows table cells to span rows or columns
+% END Tables
+
+% Font specific packages
+\usepackage{fontspec}
+\usepackage{textcomp}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{inconsolata}
+\usepackage[default]{droidserif}
+
+% Specifying fonts
+\setsansfont{Open Sans}
+\setmainfont[Scale=0.80]{Droid Serif}
+\fontspec{Inconsolata}
+\setmonofont[Scale=0.80]{Inconsolata}
+\newfontfamily\headingfont[]{Open Sans}
+\newfontfamily\headingfont[]{Open Sans}
+\titleformat*{\section}{\Large\headingfont}
+\titleformat*{\subsection}{\large\headingfont}
+\titleformat*{\subsubsection}{\normalsize\headingfont}
+\renewcommand{\maketitlehooka}{\headingfont}
+
+\usepackage{cite}
+
+
+
+\title{TMM4220 Innovasjon \\ 
+\vspace{6pt}\large Parkeringssystem for Oslo kommune \\ \vspace{50pt} 
+ }
+
+\author{Einar Baumann \\Elise Landsem\\D\v{z}enan Dumpor\\Magnus Rodahl\\Sigbjørn Aukland}   
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\vspace{50pt}
+\begin{abstract}
+Sammendraget ...
+\end{abstract}
+\pagebreak
+
+\tableofcontents
+\pagebreak
+
+\section*{Forord}
+Problemstilling, formål, faget og sånt
+\pagebreak
+
+
+
+\section{Innledning}
+\label{sec:innledning}
+
+% section innledning (end)
+
+
+
+
+\section{Teori}
+\label{sec:teori}
+
+% section teori (end)
+
+
+
+
+
+\section{Teknologiundersøkelse}
+\label{sec:teknologi}
+
+% section teknologi (end)
+
+
+
+
+
+\section{Forslag til implementering}
+\label{sec:implementering}
+
+% section implementering (end)
+
+
+
+
+
+\section{Diskusjon}
+\label{sec:diskusjon}
+
+% section diskusjon (end)
+
+
+
+
+
+
+\section{Konklusjon}
+\label{sec:konklusjon}
+
+% section konklusjon (end)
+
+
+
+
+
+
+\pagebreak
+\bibliography{referanser.bib}{}
+\bibliographystyle{plain}
+\pagebreak
+
+
+
+
+\appendix
+
+\section{Første appendix}
+\label{sec:}
+
+% section  (end)
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
