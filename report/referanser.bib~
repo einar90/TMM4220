@@ -1,9 +1,9 @@
 @Book{vekstbedriften,
 	author = {Dahle, Yngve and Verde, Patrick and Dagestad, Sjur},
-	title = {Vekstbedriften},	
-	year = {2012},
-	edition = {4th},
-	publisher = {Universitetsforlaget}
+	title = Vekstbedriften,	
+	edition = 4th,
+	year = 2012,
+	publisher = Universitetsforlaget
 }
 
 @MISC{popmech,
