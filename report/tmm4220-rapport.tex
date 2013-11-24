@@ -48,6 +48,12 @@
 \titleformat*{\subsubsection}{\normalsize\headingfont}
 \renewcommand{\maketitlehooka}{\headingfont}
 
+% Title spacing
+%\titlespacing{command}{left spacing}{before spacing}{after spacing}[right]
+\titlespacing\section{0pt}{14pt}{0pt}
+\titlespacing\subsection{0pt}{12pt}{0pt}
+\titlespacing\subsubsection{0pt}{10pt}{0pt}
+
 \usepackage{cite}
 
 
@@ -88,7 +94,7 @@ Problemstilling, formål, faget og sånt
 
 \section{Teori}
 \label{sec:teori}
-test
+
 % section teori (end)
 
 
@@ -128,15 +134,26 @@ Bør oppfylle følgende kriterer:
 \end{itemize}
 % subsubsection app_for_brukere (end)
 
+\subsubsection{App for kontrollører}
+\label{ssub:kontrollor_app}
+Samtaler med bymiljøetaten har avdekt at problemet med det eksisterende systemet er at det er oppdelt: vaktene må manuelt sjekke flere forskjellige registre for betalt parkering (kontant med lapp, app, sms...), betalt piggdekkavgift, etc.
+
+Et nytt system bør gi mulighet for å sjekke samtlige ting samtidig. Eksempelvis kan man scanne nummerskiltet, og få opp OK/IKKE OK for hvert punkt. Dette innebærer at systemet for parkeringsbetalingen bør kunne knyttes sammen med noen eksisterende systemer.
+
+Appen bør også kunne lede kontrollørene til parkeringsplasser der sensorsystemet har registrert avvik, f.eks. biler som har stått lengre enn de har betalt for, eller lengre enn tillatt tid i et område med tidsbegrensning.
+
+% subsubsection kontrollor_app (end)
+
+
 % subsection ideelt_system (end)
 
 
-
+\clearpage
 \subsection{Eksisterende systemer}
 \label{sub:sksisterende_systemer}
 
 
-\clearpage
+
 \subsubsection{Fybr}
 \label{ssub:fybr}
 Fybr er en amerikansk leverandør av parkeringssystemer med nesten 15 års erfaring med parkeringssytemer av denne typen, og er dergfor trolig en pålitelig leverandør.
